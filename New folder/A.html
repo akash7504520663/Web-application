@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Akash</title>
+    <link rel="stylesheet" href="B.css">
+</head>
+<body>
+    <div class="full-page">
+        <div class="sub-page">
+            <div class="navigation-bar">
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <div class="form-box">
+                        <div class="form">
+                            <form class="login-form">
+                                <center><h1 class="main-heading">LOGIN</h1></center>
+				                <input type="text"placeholder="user name"/>
+				                <input type="password"placeholder="password"/>
+				                <button>LOGIN</button>
+				                <p class="message"><a href="#">Signup</a></p>
+				            </form>
+                            <form class="register-form">
+                                <center><h1 class="main-heading">Signup</h1></center>
+				                <input type="text" placeholder="Name"/>
+				                <input type="text" placeholder="Email-id"/>
+				                <input type="number" placeholder="Mobile"/>
+                                <input type="text" placeholder="Address"/>
+				                <input type="text" placeholder="City"/>
+				                <input type="text" placeholder="State"/>
+                                <input type="number" placeholder="Pincode"/>
+				                <input type="text" placeholder="Country"/>
+				                <input type="text" placeholder="Compay Name"/>
+                                <input type="text" placeholder="Occupation"/>
+				                <input type="text" placeholder="Year Of Experience"/>
+				                <button>REGISTER</button>
+				                <p class="message"><a href="#">Login</a>
+				                </p>
+				            </form>
+			             </div>
+	                </div>
+                </div>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+    </script>
+    <script>
+        $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+</body>
+</html>
